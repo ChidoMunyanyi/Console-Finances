@@ -90,3 +90,8 @@ var finances = [
 console.log("Financial Analysis")
 
 console.log("Total Months: ", finances.length)
+
+let total = 0;
+for(var i= 0; i < finances.length; i++) {
+    console.log("Total: " + total);
+}
