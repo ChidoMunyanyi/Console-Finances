@@ -96,3 +96,6 @@ for(var i = 0; i < finances.length; i++) {
         total += finances[i][1];
     }
  console.log("Total: " + total);
+
+ let average = total/finances.length
+ console.log("Average Change: " + average)
